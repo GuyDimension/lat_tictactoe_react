@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.board-row {
+  /*border: 1px solid black; /* Memberikan garis tepi hitam setebal 1px */
+  /*width: 50px; /* Mengatur lebar kotak */
+  height: 30px; /* Mengatur tinggi kotak */
+  display: flex; /* Membuat konten di dalamnya menjadi fleksibel */
+  justify-content: center; /* Membuat konten di tengah secara horizontal */
+  align-items: center; /* Membuat konten di tengah secara vertikal */
+  font-size: 20px; /* Mengatur ukuran font (opsional) */
+  background-color: lightgreen; /* Warna latar belakang default (abu-abu muda) */
+  margin-right: -1px; /* Menghilangkan jarak kanan antar kotak */
+  margin-bottom: -1px; /* Menghilangkan jarak bawah antar baris (jika ada baris di bawahnya) */
+}
