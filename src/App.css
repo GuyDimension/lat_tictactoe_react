@@ -37,6 +37,20 @@
   }
 }
 
+.square {
+  background: #fff; /* Optional: Set a background color for the squares */
+  border: 1px solid #999; /* Add a 1-pixel solid grey border */
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
 .board-row {
   /*border: 1px solid black; /* Memberikan garis tepi hitam setebal 1px */
   /*width: 50px; /* Mengatur lebar kotak */
